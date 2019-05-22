@@ -32,7 +32,7 @@ public class AuthServiceTests {
 		System.out.println("***************Start first test methode***************");
 		User testUser = new User(null, "nom", "prenom", "email@email.fr", "azerty1234*", null);
 		
-		String result = service.create(testUser);
+		//String result = service.create(testUser);
 		System.out.println("DEBUG USER ID AFTER Creation:" +result.getId());
 		
 		String expectedResult = "SUCCESS";
